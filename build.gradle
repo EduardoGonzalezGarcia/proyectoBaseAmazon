@@ -26,6 +26,8 @@ apply plugin: 'net.serenity-bdd.aggregator'
 apply plugin: 'java'
 
 dependencies {
+    implementation 'net.serenity-bdd:serenity-rest-assured:1.9.31'
+    implementation 'org.json:json:20170516'
     implementation 'net.serenity-bdd:serenity-junit:2.0.13'
     implementation 'net.serenity-bdd:serenity-core:2.0.13'
     implementation 'net.serenity-bdd:serenity-cucumber:1.9.20'
